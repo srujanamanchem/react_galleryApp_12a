@@ -1,0 +1,19 @@
+.thumbnails {
+  list-style-type: none;
+  margin-right: 3px;
+}
+.thumbnail-button {
+  border-width: 0px;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 0;
+}
+.thumbnail-image {
+  width: 45px;
+  height: 45px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.active {
+  opacity: 1;
+}

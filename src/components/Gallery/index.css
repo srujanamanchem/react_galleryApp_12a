@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  height: 80%;
+}
+
+.gallery-image {
+  width: 50%;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 16px;
+}
+.description {
+  font-family: 'roboto';
+  font-size: 12px;
+}
+.images-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 0px;
+}
